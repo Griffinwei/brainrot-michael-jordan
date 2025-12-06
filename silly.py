@@ -6,7 +6,7 @@ from ultralytics import YOLO
 model = YOLO('yolov8n-pose.pt')
 
 # Load your meme image (replace with your actual path)
-meme_image = cv2.imread("C:/Users/grw23969/Downloads/yoo-michael-jordan.gif")  # Change this to your image path
+meme_image = cv2.imread("brainrot-michael-jordan/yoo-michael-jordan.gif")  # Change this to your image path
 
 if meme_image is None:
     print("Error: Could not load meme image. Please check the path.")
@@ -136,4 +136,5 @@ while True:
         break
 
 cap.release()
+
 cv2.destroyAllWindows()
